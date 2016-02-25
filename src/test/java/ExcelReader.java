@@ -3,6 +3,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.junit.Test;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,6 +23,7 @@ public class ExcelReader {
     String path = null;
 
     //constructor
+
     public ExcelReader() throws IOException {
         path = System.getProperty("user.dir") + "\\testdata\\TestData.xlsx";
         fis = new FileInputStream(path);

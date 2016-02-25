@@ -7,10 +7,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SimpleTest {
 
 
+
     @Test
     public void UserOnLandingPage() throws Throwable {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.testbirds.nl/");
 
+    }
+
+    @Test
+    public void Testcase() throws Throwable {
+        WebDriver driver = new FirefoxDriver();
+        driver.get("https;//www.nu.nl");
     }
 }
