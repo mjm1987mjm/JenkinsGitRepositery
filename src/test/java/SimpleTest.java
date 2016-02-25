@@ -9,10 +9,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SimpleTest {
 
 
-
- @Test
+    @Test
     public void UserOnLandingPage() throws Throwable {
-     WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new FirefoxDriver();
         driver.get("https://www.testbirds.nl/");
 
     }
