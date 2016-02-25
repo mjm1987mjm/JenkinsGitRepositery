@@ -1,3 +1,5 @@
+package Steps;
+
 import cucumber.api.java.en.Given;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +10,7 @@ public class SimpleTest {
 
 
 
-
+@Test
     public void UserOnLandingPage() throws Throwable {
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.testbirds.nl/");
@@ -16,9 +18,4 @@ public class SimpleTest {
 
     }
 
-
-    public void Testcase() throws Throwable {
-        WebDriver driver = new FirefoxDriver();
-        driver.get("https;//www.nu.nl");
-    }
 }
